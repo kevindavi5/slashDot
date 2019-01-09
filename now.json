@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "alias": "slashdot",
+  "builds": [
+    {
+      "src": "slashDot.php",
+      "use": "@now/php"
+    }
+  ],
+  "env": {
+    "COMMAND_TOKEN": "@command-token",
+    "TEAM_TOKEN": "@team-token"
+  }
+}
